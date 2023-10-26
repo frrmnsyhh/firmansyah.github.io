@@ -107,23 +107,36 @@ body {
 
 #banner {
     background-color: 116a7b;
-    padding: 0 0 40px 0;
-    margin: 0 0 40px 0;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
 }
 
 #banner img {
-    height: 150px;
-    padding: 80px 0 0 25px;
+    height: 300px;
+    padding: 80px 0 0 80px;
 }
 
-#banner h2,
+.hai h2:nth-child(1) {
+    font-size: 3em;
+    color: #ffffff;
+    padding: 20vh 25px 0 40px;
+}
+
+.hai h2:nth-child(2) {
+    padding: 0 0 0px 40px;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.hai {
+    line-height: 15px;
+    padding-left: 30px;
+}
+
+
 #banner p {
     color: #ffffff;
-    padding: 0 25px;
-}
-
-#banner p {
-    padding: 0 0 35px 25px;
+    padding: 0 0 35px 40px;
     font-size: 18px;
 }
 
@@ -162,17 +175,51 @@ section h3::after {
     border-radius: 50px;
 }
 
+.cont {
+    display: flex;
+
+}
+
 #about p {
     padding: 15px 25px;
     line-height: 30px;
     margin-bottom: 50px;
 }
 
+
 #skills {
     background-color: rgb(228, 227, 227);
-    padding-bottom: 480px;
+    padding: 30px 25px 100px 25px;
 }
 
+.card {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px 3px #888888;
+    border-radius: 15px;
+    height: 55vh;
+    width: 45vh;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px 5px;
+}
+
+.kotak1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    padding-top: 20px;
+}
+
+.kotak2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .line2 {
+    display: flex;
+} */
+
+/*
 #skills .bar {
     height: 30px;
     background-color: #fff;
@@ -214,14 +261,12 @@ section h3::after {
 
 .cd {
     width: 90%;
-}
+} */
 
 #pfolio {
     padding-bottom: 480px;
     box-sizing: border-box;
-    /* border: 1px solid; */
-
-
+    / */
 }
 
 .epte {

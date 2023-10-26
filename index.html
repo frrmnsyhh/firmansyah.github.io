@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="stylewp.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
@@ -42,7 +43,7 @@
 
     <!-- Bagian Navigasi -->
     <section id="banner">
-        <nav class="dad1">
+        <nav data-aos="fade-down" class="dad1">
             <h1><a href="#banner">Firmansyah</a></h1>
 
             <ul>
@@ -59,28 +60,63 @@
         <!-- Bagian Banner -->
         <div class="cont">
             <img src="img/profile.png" alt="profile">
-            <h2>Hai... <br>
-                Saya adalah seorang <span class="epek-ngetik"></span></h2>
-            <p>Selamat Datang Di Website Portfolio Saya!</p>
+            <div data-aos="fade-in" data-aos-duration="1400" class="hai">
+                <h2>Hai...</h2>
+                <h2>Saya adalah seorang <span class="epek-ngetik"></span></h2>
+                <p>Selamat Datang Di Website Portfolio Saya!</p>
+            </div>
         </div>
+
     </section>
 
     <!-- Bagian About -->
     <section id="about">
         <div class="abt">
-            <h3>About</h3>
-            <p>Saya adalah seorang Desainer Grafis yang tertarik di bidang IT.
+            <h3 data-aos="fade-in" data-aos-duration="1800" data-aos-delay="300">About</h3>
+            <p></p>
+            <!-- <p>Saya adalah seorang Desainer Grafis yang tertarik di bidang IT.
                 Saya telah menjadi seorang Desainer grafis lebih dari 12 tahun
                 dan saya bangga atas pencapaian saya saya harap saya bisa menjadi Frontend
-                Developer dan menjadi UI/UX Desainer.</p>
+                Developer dan menjadi UI/UX Desainer.</p> -->
         </div>
     </section>
 
     <!-- Bagian Skills -->
     <section id="skills">
         <div class="skll">
-            <h3>Skills</h3>
-            <h4>HTML</h4>
+            <h3 data-aos="fade-in" data-aos-duration="1000">Skills</h3>
+            <div class="kotak1">
+                <div data-aos="fade-right" data-aos-duration="1000" class="card">
+                    <h1>HTML</h1>
+                    <p>Saya menguasai html sikit - sikit yaa paling bisa buat Hello World doang hehehehe</p>
+                </div>
+                <div data-aos="fade-in" data-aos-duration="1000" class="card">
+                    <h1>CSS</h1>
+                    <p>Saya menguasai css sikit - sikit yaa paling bisa styling buat border 1px solit hehehe</p>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="card">
+                    <h1>JavaScript</h1>
+                    <p>Saya menguasai js sikit - sikit yaa paling bisa buat dokumen wretlen hehehe</p>
+                </div>
+            </div>
+
+            <div class="kotak2">
+                <div data-aos="fade-right" data-aos-duration="1000" class="card">
+                    <h1>Photoshop</h1>
+                    <p>Saya menguasai Ps sikit - sikit yaa paling bisa buat kotak doank hehehe</p>
+                </div>
+                <div data-aos="fade-in" data-aos-duration="1000" class="card">
+                    <h1>Coreldraw</h1>
+                    <p>Saya menguasai cd sikit - sikit yaa paling bisa tresink hehehe</p>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="1000" class="card">
+                    <h1>Figma</h1>
+                    <p>Saya ga menguasai figma buka aplikasi nya aja belum wir hehehe</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- <h4>HTML</h4>
             <div class="bar">
                 <span class="nilai html">85%</span>
 
@@ -100,35 +136,35 @@
                             <div class="bar">
                                 <span class="nilai cd">90%</span>
                             </div>
-                        </div>
+                        </div> -->
     </section>
 
     <!-- Bagian Portfolio -->
     <section id="pfolio">
         <div class="pfolio">
-            <h3>Portfolio</h3>
-            <div class="epte">
+            <h3 data-aos="fade-in" data-aos-duration="1000">Portfolio</h3>
+            <div data-aos="fade-down" data-aos-duration="1000" class="epte">
                 <a href="">
                     <img src="img/tnkrb.jpg" alt="Portfolio">
                     <span>portfolio1</span>
                 </a>
             </div>
 
-            <div class="epte">
+            <div data-aos="fade-down" data-aos-duration="1500" class="epte">
                 <a href="">
                     <img src="img/tnkrb.jpg" alt="Portfolio">
                     <span>portfolio2</span>
                 </a>
             </div>
 
-            <div class="epte">
+            <div data-aos="fade-down" data-aos-duration="2000" class="epte">
                 <a href="">
                     <img src="img/tnkrb.jpg" alt="Portfolio">
                     <span>portfolio3</span>
                 </a>
             </div>
 
-            <div class="epte">
+            <div data-aos="fade-down" data-aos-duration="2500" class="epte">
                 <a href="">
                     <img src="img/tnkrb.jpg" alt="Portfolio">
                     <span>portfolio4</span>
@@ -136,28 +172,28 @@
 
             </div>
 
-            <div class="epte">
+            <div data-aos="fade-up" data-aos-duration="2500" class="epte">
                 <a href="">
                     <img src="img/tnkrb.jpg" alt="Portfolio">
                     <span>portfolio1</span>
                 </a>
             </div>
 
-            <div class="epte">
+            <div data-aos="fade-up" data-aos-duration="2000" class="epte">
                 <a href="">
                     <img src="img/tnkrb.jpg" alt="Portfolio">
                     <span>portfolio2</span>
                 </a>
             </div>
 
-            <div class="epte">
+            <div data-aos="fade-up" data-aos-duration="1500" class="epte">
                 <a href="">
                     <img src="img/tnkrb.jpg" alt="Portfolio">
                     <span>portfolio3</span>
                 </a>
             </div>
 
-            <div class="epte">
+            <div data-aos="fade-up" data-aos-duration="1000" class="epte">
                 <a href="">
                     <img src="img/tnkrb.jpg" alt="Portfolio">
                     <span>portfolio4</span>
@@ -169,17 +205,17 @@
 
     <!-- Bagian Contact -->
     <section id="conct">
-        <h3>Contact</h3>
+        <h3 data-aos="fade-in" data-aos-duration="1000">Contact</h3>
         <div class="container">
-            <div class="bio">
+            <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="500" class="bio">
                 <h4>Alamat</h4>
                 <p>Cisarua Bogor, Bogor, Jawabarat</p>
             </div>
-            <div class="bio">
+            <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000" class="bio">
                 <h4>Telp/Hp</h4>
                 <p>+62 895 3210 60230</p>
             </div>
-            <div class="bio">
+            <div data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1500" class="bio">
                 <h4>Email</h4>
                 <p>muhamadfirmansyah18@gmail.com</p>
             </div>
@@ -192,8 +228,23 @@
             <small>Copyright &copy; 2023 - Firmansyah.</small>
         </div>
     </footer>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.abt p', { duration: 1.3, delay: 1.3, text: 'Saya adalah seorang Desainer Grafis yang tertarik di bidang IT.Saya telah menjadi seorang Desainer grafis lebih dari 12 tahun dan saya bangga atas pencapaian saya saya harap saya bisa menjadi Frontend Developer dan menjadi UI/UX Desainer' })
+        gsap.from('.cont img', { duration: 2.5, x: -50, opacity: 0, delay: 0.5, ease: 'back' })
+    </script>
 
-    <script src="scriptwp.js"></script>
+    <script src="script.js"></script>
 
 
 </body>
