@@ -136,7 +136,7 @@ body {
 
 #banner p {
     color: #ffffff;
-    padding: 0 0 35px 40px;
+    padding: 0 0 2px 40px;
     font-size: 18px;
 }
 
@@ -266,7 +266,6 @@ section h3::after {
 #pfolio {
     padding-bottom: 480px;
     box-sizing: border-box;
-    / */
 }
 
 .epte {
@@ -317,6 +316,45 @@ footer {
 
 footer small {
     color: #fff;
+}
+
+i {
+    /* color: rgb(228, 227, 227);
+    background-color: #333; */
+    color: #333;
+    padding: 15px;
+    margin: 40px;
+    border-radius: 50%;
+
+}
+
+.container a i {
+    font-size: 2.5em;
+    transition: 1s;
+}
+
+.container a:hover i {
+    transition: 0.5s;
+    transform: rotate(-10deg);
+    color: #C70039;
+}
+
+.hai input {
+    background-color: rgba(199, 0, 57, 0);
+    border: none;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 50px;
+    margin-left: 30px;
+    transition: 0.3s;
+
+}
+
+.hai input:hover {
+    background-color: #C70039;
+    cursor: pointer;
+
 }
 
 html {
